@@ -13,7 +13,7 @@ header{
     gap: 100px;
 }
 header h1{
-    margin-left: 130px;
+    margin-left: 190px;
 }
 header span{
     color: red;
@@ -37,14 +37,13 @@ nav ul li a{
 }
 .topbar2{
     display: flex;
-   
     padding: 0;
 }
 .presentation{
     display: flex;
     flex-direction: column;
     margin-left: 60px;
-    padding: 90px ;
+    padding: 150px  ;
     
 
 }
@@ -56,23 +55,145 @@ nav ul li a{
 }
 .presentation img{
     margin-right: 50px;
+    
 }
 .media{
     display: flex;
-    
     gap: 5px;
     
 }
 .media img{
     width: 25px;
-    border-radius: 20px;
+    border-radius: 90px;
     
 }
-.image4{
+.image1{
     display: flex;
 }
-.image4 img{
-    width: 300px;
-    border-radius: 20px;
-    margin-right: 200px;
+.image1 img{
+    margin-right: 100px;
+}
+
+.aboutus{
+    display: flex;
+    gap: 90px;
+}
+.aboutus img{
+    margin-left: 150px;   
+   
+}
+.aboutus1{
+    padding: 100px 150px;
+}
+.aboutus span{
+    color: red;
+}
+.aboutus button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.Experiences{
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    padding: 50px 50px;
+}
+.exp h2{
+    margin-left: 550px;
+}
+.Services{
+    display: flex;
+     padding: 50px 40px;
+     gap: 50px;
+     margin-left: 70px;
+}
+.service h2{
+    margin-left: 600px;
+}
+.entreprise img{
+     width: 50px;
+     margin-left: 60px; 
+     
+}
+.fullstack img{
+      width: 50px; 
+      margin-left: 60px;
+}
+.reseau img{
+    width: 50px;
+    margin-left: 60px; 
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    
+}
+.cont{
+    padding: 100px 20px;
+}
+.contact h2{
+    margin-left: 50px;
+}
+.Contact1 img{
+        width: 40px;
+        margin-left: 50px;
+}
+.contact2 img{
+        width: 40px;
+        margin-left: 50px;
+
+}
+.Contact1 span{
+        margin-left: 10px;
+        
+}
+.contact2 span{
+        margin-left: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 100px;
+}
+.form input{
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+}
+.form button{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(124, 124, 218);
+    cursor: pointer;
+}
+.nomemail{
+    display: flex;
+    flex-direction: column;
+}
+.nomemail input{
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.Message{
+    display: flex;
+    flex-direction: column;
+}
+.Message input{
+    width: 420px;
+    height: 100px;
+    border-radius: 30px;
+}
+.btn{
+    padding: 10px;
+}
+footer{
+    margin-left: 590px;
+    background-color:rgb(234, 234, 241);
 }
