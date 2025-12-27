@@ -1,62 +1,85 @@
-body{
+*{
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
 }
-.topbar{
-    background-color: rgb(234, 234, 241);
+i {
+    font-size: 25px;
+}
+i:hover{
+    color: red;
 }
 header{
+    width: 100%;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0 10%;
     gap: 100px;
+    background-color: rgb(234, 234, 241);
 }
-header h1{
-    margin-left: 190px;
-}
+
 header span{
+    width: 35%;
     color: red;
 }
+
 nav{
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;  
-    margin-right: 60px;
+  width: 50%;  
 }
 nav ul{
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
+
 nav ul li a{
     text-decoration:none;
     color: black;
+    transition: 0.5s;
+    font-size: 1.1rem;
 }
-.topbar2{
-    display: flex;
-    padding: 0;
-}
-.presentation{
-    display: flex;
-    flex-direction: column;
-    margin-left: 60px;
-    padding: 150px  ;
-    
-
-}
-.presentation span{
+nav ul li a:hover{
     color: red;
 }
-.presentation p{
-    max-width: 40%;
+
+.topbar{
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    padding: 0 10%;
+    align-items: center;
+    background-color: #eaeaf1;
 }
-.presentation img{
-    margin-right: 50px;
-    
+.topbarleft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
+.topbarright{
+    width: 50%;
+    height: 100%;
+    background-image: url(./image/bea776a1-65f3-4db2-af68-487e0e85f1bd-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    /* border: 2px solid black; */
+}
+
+.topbarleft span{
+    color: red;
+    }
+.topbarleft h3{
+        font-size: 50px;
+    }
+.topbarleft p{
+    font-size: 15px;
+}
+
 .media{
     display: flex;
     gap: 5px;
@@ -67,133 +90,136 @@ nav ul li a{
     border-radius: 90px;
     
 }
-.image1{
+.about{
+    width: 100%;
+    height: 100vh;
     display: flex;
+    justify-content: space-between;
+    padding: 5% 10% ;
 }
-.image1 img{
-    margin-right: 100px;
-}
-
 .aboutus{
-    display: flex;
-    gap: 90px;
-}
-.aboutus img{
-    margin-left: 150px;   
-   
+    width: 45%;
+    height: 100%;
+    background-image: url(./image/bea776a1-65f3-4db2-af68-487e0e85f1bd-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+
 }
 .aboutus1{
-    padding: 100px 150px;
+    width: 45%;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
 }
-.aboutus span{
+.aboutus1 span{
     color: red;
 }
-.aboutus button{
-    width: 200px;
+.aboutus1 h2{
+    font-size: 40px;
+}
+.aboutus1 p{
+    font-size: 15px;
+}
+.btn{
+    width: 150px;
     height: 50px;
-    border-radius: 30px;
+    border-radius: 20px;
     background-color: red;
     color: white;
     cursor: pointer;
+    border: none;
 }
-.Experiences{
+.btn:hover{
+    background-color: rgb(74, 84, 105);
+}
+.services{
+    width: 100%;
+    height: 100vh;
     display: flex;
-    gap: 50px;
-    flex-direction: row;
-    padding: 50px 50px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 5% 10%;
+    background-color: #eaeaf1;
+    text-align: center;
 }
-.exp h2{
-    margin-left: 550px;
-}
-.Services{
+.Services-container{
+    width: 100%;
+    height: 100%;
     display: flex;
-     padding: 50px 40px;
-     gap: 50px;
-     margin-left: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eaeaf1;
 }
-.service h2{
-    margin-left: 600px;
+.services-box{
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    align-items: center;
+    border-radius: 15px;
+    padding: 3%;
 }
-.entreprise img{
-     width: 50px;
-     margin-left: 60px; 
-     
+.services h2{
+    font-size: 50px;
 }
-.fullstack img{
-      width: 50px; 
-      margin-left: 60px;
+.services-box p{
+    font-size: 13px;
 }
-.reseau img{
-    width: 50px;
-    margin-left: 60px; 
+.services-box i{
+    font-size: 35px;
+    color: red;
 }
 .contact{
+    width: 100%;
+    height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5% 10%;
     
 }
-.cont{
-    padding: 100px 20px;
-}
 .contact h2{
-    margin-left: 50px;
+    text-align: center;
+    font-size: 40px;
 }
-.Contact1 img{
-        width: 40px;
-        margin-left: 50px;
+.contact-container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
 }
-.contact2 img{
-        width: 40px;
-        margin-left: 50px;
+.contact-left{
+    width: 50%;
+    height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: self-start;
+     gap: 13px;
+}
+.contact-right{
+     width: 50%;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     /* background-color: #eaeaf1;
+     padding: 5%; */
 
 }
-.Contact1 span{
-        margin-left: 10px;
-        
+.form-group{
+     margin-bottom: 5px;
 }
-.contact2 span{
-        margin-left: 10px;
+label{
+    display: block;
 }
-.form{
-    display: flex;
-    flex-direction: column;
-    padding: 80px 100px;
-}
-.form input{
-    width: 500px;
-    height: 50px;
-    border-radius: 30px;
-}
-.form button{
-    width: 150px;
-    height: 40px;
-    border-radius: 30px;
-    background-color: rgb(124, 124, 218);
-    cursor: pointer;
-}
-.nomemail{
-    display: flex;
-    flex-direction: column;
-}
-.nomemail input{
-    width: 400px;
-    height: 40px;
-    border-radius: 30px;
-    padding: 10px;
-}
-.Message{
-    display: flex;
-    flex-direction: column;
-}
-.Message input{
-    width: 420px;
-    height: 100px;
-    border-radius: 30px;
-}
-.btn{
-    padding: 10px;
-}
-footer{
-    margin-left: 590px;
-    background-color:rgb(234, 234, 241);
-}
+input,textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 13px;
+ }
