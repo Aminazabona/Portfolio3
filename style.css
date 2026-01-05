@@ -223,3 +223,10 @@ input,textarea{
     border-radius: 5px;
     font-size: 13px;
  }
+ footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:  #eaeaf1;
+
+ }
